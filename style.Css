@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {
+  --themecolor: #000000;
+  --hovercolor: black;
+  --bgcolor: #eff3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+              
+}
+
+/*
+drak blue ta 698474
+light blue ta #889E81
+bg E5E4CC
+icons #BAC7A7
+https://colorhunt.co/palettes/pastel*/
+
+
+body {
+  background: gray;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+/*  margin-top: 10px;*/
+}
+
+.container
+{
+	/*background: #d9d9d9;*/
+		background:#E5E4CC;/*#b3b3cc*/
+		/*width: 80%;*/
+		width: 800px;
+  height: 12in;
+		margin: 0 auto;
+		padding-top: 20px;
+
+
+
+}
+
+.header
+{
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	background:#889E81;  /*#004080;*/
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	/*margin-top: 30px;*/
+	height: 200px;
+}
+
+.image 
+{
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+   margin-right: 20px;
+}
+
+.right_1
+{
+	margin-top: 50px;
+	margin-left: 55px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.right_2
+{
+	margin-left: 95px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.underline
+{
+	width: 350px;
+	height: 7px;
+	background:white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.col_1
+{
+
+	margin-top: 10px;
+
+}
+/*Experience header*/
+.col_1 .exp
+{
+	color: #29293d;
+	padding: 5px;
+	background: #538cc6;
+	margin-right: 20px;
+}
+.fa
+{
+	margin-left: 30px;
+	color:#B5CDA3 /*#BAC7A7*/;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+.exp1
+{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 3fr;
+  margin-top: 10px;
+} 
+
+.head
+{
+	color: #29293d;
+	font-weight: bold;
+}
+
+.exp2
+{
+	margin-bottom: 10px;
+
+}
+
+.exp2 p {
+	margin-top: 10px;
+	text-align: justify;
+	margin-right: 20px;
+	color: #29293d;
+	margin-left: 2px;
+	margin-bottom: 10px;
+}
+
+.row_
+{
+	display: grid;
+	grid-template-columns: 1.5fr 2fr;
+}
+
+.box1{
+	margin-bottom: 10px;
+}
+
+h2 {
+	background:#538cc6;
+	margin-left: 20px;
+	padding: 5px;
+	color: #29293d;
+}
+
+.box2 h2 {
+		margin-right: 20px;
+		padding: 5px;
+}
+
+.space2
+{
+	margin-top: 12px;
+}
+
+.space {
+	margin-left: 20px;
+	color: black;
+	margin-top: 20px;
+}
+
+.skills{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.progress_bar
+{
+	background: gray;
+	height: 7px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.progress {
+	background: black;
+	height: 7px;
+	width: 110px;
+}
+
+.progress_bar1
+{
+	background: gray;
+	height: 7px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.progress1 {
+	background: black;
+	height: 7px;
+	width: 150px;
+}
+.progress_bar2
+{
+	background: gray;
+	height: 7px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 45px;
+}
+
+.progress2 {
+	background: black;
+	height: 7px;
+	width: 145px;
+}
+.progress_bar3
+{
+	background: gray;
+	height: 7px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 15px;
+
+}
+
+.progress3 {
+	background: black;
+	height: 7px;
+	width: 120px;
+	
+}
+.progress_bar4
+{
+	background: gray;
+	height: 7px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 24px;
+	margin-right: 10px;
+
+}
+
+.progress4 {
+	background: black;
+	height: 7px;
+	width: 90px;
+
+}
+
+.ui{
+	display: grid;
+	grid-template-columns: 0.2fr 0.3fr;
+}
+p{
+	/*margin-top: 15px;*/
+	margin-left: 55px;
+}
+
+.skil {
+	margin-top: 20px;
+	color: black;
+}
+
+/*.skil
+{
+	display: grid;
+	grid-template-columns:1fr 1fr ;
+	margin-top: 15px;
+}*/
